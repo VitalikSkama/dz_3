@@ -22,12 +22,13 @@ class Auto:
         else:
             print(f'no passengers in {self.brand}')
 
+class Wheels:
+    def __init__(self,):
+        self.wheels = wheels
+
     def print_wheels(self):
         if self.wheels:
             print(f"There are {len(self.wheels)} Wheels in {self.brand}")
-
-
-
 
 
 
